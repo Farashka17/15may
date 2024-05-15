@@ -1,5 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    padding: 34px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: "Work Sans";
+}
+.left{
+    margin-left: 50px;
+}
+.right{
+    margin-left: 329.59px;
+    display: flex;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap:10px; 
+}
+.right ul li{
+    padding: 12px 20px;
+    
+}
+.right ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+button{
+    padding: 19px 30px;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+button i{
+    margin-right:12px ;
+    color: #fff;
+}
+
+.main{
+    padding: 80px 115px;
+    background-color: rgba(43, 43, 43, 1);
+    max-width: 1,050px;
+    /* height: 544px; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: "WorK Sans";
+    
+}
+.mainLeft{
+    width: 510px;
+    height: 544px;
+    color: #fff;
+}
+.main .mainLeft h1{
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 73.7px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+.main .mainLeft p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    margin-top: 20px;
+}
+.main .mainLeft button{
+    background-color: rgba(162, 89, 255, 1);
+    padding: 20px 50px;
+    display: flex;
+    gap:12px;
+    margin-top: 30px;
+}
+.main .mainLeft ul{
+    display: flex;
+    gap:30px;
+    margin-top: 30px;
+}
+.main .mainLeft ul li h2{
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    text-align: left;
+}
+.main .mainLeft ul li h3{
+    font-family: "Work Sans";
+    font-size: 23.99px;
+    font-weight: 400;
+    line-height: 38.38px;
+    text-align: left;
+}
+.mainRight{
+    width: 510px;
+}
+.container{
+    width: 510px;
+    height: 510px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius:20px;
+}
+.container .image{
+    width: 510px;
+    height: 401px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/8ac9/e0e3/bcf2d5507a81254146143702cd71f923?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hMjEHNbnrksz-R6axNZSreAuLP37nzmxhTAhoxWMw0UW7Z5Lo22lyMPJ9ax6ryQdiwVDzKplWcMycNBN3d7ljcO-2Vv0OBMSdbagcS2ixw1e1cLajARXJF30CMF9SA5lLlmQLMFoS23tHN-QegKdGQwQ94JZvrK0pvJBKd-LGVUwdr8QsfNQNYSsu-r8GJ94MfEi4W3fF22FNrhoXCOttMSgJwVOInAoGTaWeCSM4fTLSLFSFGKW2ZoUWgSe0CA5h0ntM6BaFj2CMF3FE30Leh5MFMP~rbc8gSy-lhI4G-tI92yhy2B2c3Uk8MlS2033DZsr0Ap5CVvtPg-HY4TkGw__);
+    background-size: cover;
+    background-position: center;
+}
+.container h4{
+    margin-top: 22px;
+    margin-left: 20px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: left;
+    color: #fff;
+
+}
+.animakid{
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #fff;
+    align-items: center;
 }
